@@ -21,6 +21,32 @@ const Items = () => {
                             </ItemDetailWrapper>
                         </ItemWrapper>
                     </ScrollingItem>
+                    <ScrollingItem>
+                        <ItemWrapper>
+                            <ItemImage>
+
+                            </ItemImage>
+                        </ItemWrapper>
+                        <ItemWrapper>
+                            <ItemDetailWrapper>
+                                <ItemsH2>Nome Item 2</ItemsH2>
+                                <ItemsP>Testo esplicativo dell'oggetto.</ItemsP>
+                            </ItemDetailWrapper>
+                        </ItemWrapper>
+                    </ScrollingItem>
+                    <ScrollingItem>
+                        <ItemWrapper>
+                            <ItemImage>
+
+                            </ItemImage>
+                        </ItemWrapper>
+                        <ItemWrapper>
+                            <ItemDetailWrapper>
+                                <ItemsH2>Nome Item 3</ItemsH2>
+                                <ItemsP>Testo esplicativo dell'oggetto.</ItemsP>
+                            </ItemDetailWrapper>
+                        </ItemWrapper>
+                    </ScrollingItem>
                 </ScrollingContainer>
             </ItemsContainer>
         </>

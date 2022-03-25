@@ -12,40 +12,45 @@ export const ItemsContainer = styled.div`
 
 export const ScrollingContainer = styled.div`
     height: 100%;
+    padding: 32px;
     width: 100%;
     display: flex;    
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     background-color: white;
+    overflow-x: auto;
 `
 
 export const ScrollingItem = styled.div`
-    height: 100%;
+    height: 800px;
+    min-width: 800px;
     display: flex;    
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 0 32px;
+    margin: 32px;
     background-color: darkgray;
 `
 
 export const ItemWrapper = styled.div`
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;    
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0 32px;
-    background-color: darkgray;
+    background-color: black;
 `
 
 export const ItemImage = styled.div`
-    display: flex;    
+    height:320px;
+    width:320px;
+    background-color: red;    
 `
 
 export const ItemDetailWrapper = styled.div`
     display: flex;    
+    flex-direction: column;
 `
 
 export const ItemsH1 = styled.h1`
