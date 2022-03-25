@@ -1,5 +1,5 @@
 import React from "react";
-import {ItemsContainer, ItemsH1} from "./ItemsElements";
+import {ItemsContainer, ItemsH1,ItemsH2,ItemsP,ScrollingContainer,ItemImage,ItemDetailWrapper,ScrollingItem,ItemWrapper} from "./ItemsElements";
 
 
 const Items = () => {
@@ -7,6 +7,21 @@ const Items = () => {
         <>
             <ItemsContainer>
                 <ItemsH1>Items Page</ItemsH1>
+                <ScrollingContainer>
+                    <ScrollingItem>
+                        <ItemWrapper>
+                            <ItemImage>
+
+                            </ItemImage>
+                        </ItemWrapper>
+                        <ItemWrapper>
+                            <ItemDetailWrapper>
+                                <ItemsH2>Nome Item 1</ItemsH2>
+                                <ItemsP>Testo esplicativo dell'oggetto.</ItemsP>
+                            </ItemDetailWrapper>
+                        </ItemWrapper>
+                    </ScrollingItem>
+                </ScrollingContainer>
             </ItemsContainer>
         </>
     )

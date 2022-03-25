@@ -14,6 +14,7 @@ export const ModesH1 = styled.h1`
     color: #fff;
     font-size: 72px;
     text-align: center;
+    font-family: 'Montserrat', 'sans-serif';
     
     @media screen and (max-width: 768px){
         font-size: 40px;

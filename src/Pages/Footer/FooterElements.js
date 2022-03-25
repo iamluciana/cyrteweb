@@ -14,6 +14,7 @@ export const FooterH2 = styled.h2`
     color: #fff;
     font-size: 48px;
     text-align: center;
+    font-family: 'Montserrat', 'sans-serif';
     
     @media screen and (max-width: 768px){
         font-size: 30px;
